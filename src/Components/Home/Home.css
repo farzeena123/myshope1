@@ -1,0 +1,57 @@
+body{
+    background-color: beige;
+    padding:0;
+}
+.font h3{
+    justify-content: center;
+    padding-top: 190px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900 ;
+}
+.font p{
+margin-right: 200px;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.font2{
+    
+    padding-right: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.font2 p{
+  margin-right: 200px;
+}
+.posters{
+    display: flex;
+    padding: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar{
+    display:none ;
+}
+.posters:hover{
+    transform: scale(1.01);
+}
+.posterdiv{
+    height: 370px;
+}
+.posterdiv:hover{
+    transform: scale(1.01);
+}
+
+.kids{
+    background-color: rgb(200, 161, 113);
+}
+.soon{
+    font-weight: 900;
+    font-size: 40px;
+    padding-left: 200px;
+    color: rgb(255, 255, 255);
+}
+.colp{
+    font-family:monospace;
+     font-size: xx-large;
+     padding-left:200px;
+}
